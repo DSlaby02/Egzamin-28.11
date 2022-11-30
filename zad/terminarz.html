@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="term">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    
+    <nav class="nav1">
+        <img class="fcb" src="./img/fcb.png" height="50" width="50" alt="">
+        <ul class="gl">
+            
+            <li><a href="Stronagl.html">Strona Główna</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="spiewnik.html">Śpiewnik</a></li>
+            <li><a href="Terminarz.html">Terminarz</a></li>
+        </ul>
+
+
+
+
+        <button class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </button>
+    </nav>
+
+<p class="najme">Nadchodzące mecze </p>
+
+
+
+    <img class="mecze1" src="./img/mecze.jpg" alt="">
+       
+      
+
+
+
+
+
+    <script>
+
+
+        const mobileNav = document.querySelector('ul');
+        const burgerIcon = document.querySelector('.burger');
+        
+        
+        
+        burgerIcon.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+            burgerIcon.classList.toggle('active'); 
+           
+        })
+        
+        
+        
+        
+        </script>
+        
+
+
+
+</body>
+</html>

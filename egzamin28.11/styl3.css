@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #29434E;
+    height: 70px;
+    color: white;
+    text-align: left;
+}
+.naglo{
+    display: flex;
+    background-color: #29434E;
+}
+
+
+h3{
+    color: white;
+    background-color: #546e7a;
+    margin: 0%;
+}
+
+.banerpolecamy{
+    background-color: #B0BEC5;
+    height: 320px;
+}
+
+p{
+    margin-left: 15%;
+    display: flex;
+    font-weight: bold;
+}
+.baner{
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.banerfantastyczne{
+    background-color: #B0BEC5;
+    height: 320px;
+}
+
+footer{
+    background-color: #29434E;
+    color: white;
+    
+}
+
+table{
+    background-color: #29434E;
+    color: white;
+    margin-left: 50%;
+}
+
+.banerprawy{
+    overflow: scroll;
+}
